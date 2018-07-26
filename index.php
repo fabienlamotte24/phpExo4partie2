@@ -7,7 +7,9 @@
 <body>
   <p>
     <?php
+    /*Variable*/
       $magnitude = 6;
+      /*Gestion de tout les cas avec switch*/
       switch ($magnitude){
         case 1:
         echo 'Micro-séisme impossible à ressentir';
